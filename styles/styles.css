@@ -1,64 +1,26 @@
-*{
-	margin:0;
-	padding:0;
+html{
+	background:transparent url("http://1.bp.blogspot.com/-DIa3h6Kx82Y/TalvaWT0IqI/AAAAAAAAAPg/xls7kWYskQM/s1600/white-clouds.jpg") no-repeat fixed top left;
+	background-size:cover;
 }
-
-html,
 body{
-	width:100%;
-	height:100%;
+	height:3000px;
+}
+div{
+	position:fixed;
+	top:100px;
+	left:50%;
+	width:100px;
+	height:100px;
+	margin-left:-50px;
+	background:#7CCC28;
+	border-radius:100px;
 }
 
-body{
-	padding:100px 0;
+#bg-1{
+	top:500px;
 }
-
-#stage{
-	width:100%;
-	height:600px;
-	position:relative;
-	background:#000;
-	overflow:hidden;
+#bg-2{
+	top:530px;
+	left:30%;
+	background:#E73EA8;
 }
-	#bg,
-	#subj,
-	#fg{
-		position:absolute;
-		background:
-			-moz-linear-gradient(315deg, rgba(255,255,255,.5) 25%, transparent 25%) -50px 0,
-			-moz-linear-gradient(225deg, rgba(255,255,255,.5) 25%, transparent 25%) -50px 0,
-			-moz-linear-gradient(135deg, rgba(255,255,255,.5) 25%, transparent 25%),
-			-moz-linear-gradient(45deg, rgba(255,255,255,.5) 25%, transparent 25%)
-		;	
-	}
-	
-	#bg{
-		width:9000px;
-		height:500px;
-		z-index:0;
-		background-color:#9DD6FF;
-		background-size: 20px 20px;
-		bottom:0;
-		left:0;
-	}
-	#fg{
-		width:9000px;
-		height:60px;
-		z-index:2;
-		background-size: 100px 100px;
-		background-color: #98FF6D;
-		bottom:0;
-		left:0;
-	}
-	#subj{
-		width:120px;
-		height:120px;
-		z-index:1;
-		background-size: 100px 100px;
-		background: #666;
-		bottom:0;
-		left:50%;
-		border-radius:120px;
-	}
-	
-	
